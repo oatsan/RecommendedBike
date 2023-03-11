@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#169C27B0"
+    tools:context=".Mtbbike">
+
+    <ImageView
+        android:id="@+id/imageViewMtbBicycle2"
+        android:layout_width="284dp"
+        android:layout_height="257dp"
+        android:layout_x="69dp"
+        android:layout_y="127dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/richtersmashwhite" />
+
+    <ImageButton
+        android:id="@+id/BTLazada3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="162dp"
+        android:layout_y="623dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/iconlazada" />
+
+    <ImageButton
+        android:id="@+id/BTBack3"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:layout_x="4dp"
+        android:layout_y="22dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/backarrowicon2" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="307dp"
+        android:layout_height="45dp"
+        android:layout_x="97dp"
+        android:layout_y="28dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="เราขอแนะนำจักรยานเสือภูเขา"
+        android:textColor="#070707"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="587dp"
+        android:text="สั่งซื้อสินค้า"
+        android:textAllCaps="false"
+        android:textColor="#E91E63" />
+
+    <ImageButton
+        android:id="@+id/BTColourBlack3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_x="160dp"
+        android:layout_y="409dp"
+        app:srcCompat="@drawable/blackcolor" />
+
+    <ImageButton
+        android:id="@+id/BTColourWhite3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_x="83dp"
+        android:layout_y="410dp"
+        app:srcCompat="@drawable/whitecolor" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="288dp"
+        android:layout_height="105dp"
+        android:layout_x="61dp"
+        android:layout_y="475dp"
+        android:text="เฟรม : Aluminium ซ่อนสาย โซ๊ค: สปริง ชุดขับเคลื่อน : 21 sp. เบรค : ดิสเบรค จานหน้า : 3sp. 24-34-42T เฟือง : 7sp. 14-28T โซ่ : 7sp. ขนาดวงล้อ : 27.5 ยาง : 27.5*2.35" />
+
+    <ImageButton
+        android:id="@+id/BTShopee3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="624dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/iconshopee" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="73dp"
+        android:layout_y="87dp"
+        android:text="RICHTER SMASH 27.5"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="287dp"
+        android:layout_y="92dp"
+        android:text="ราคา 4250 บาท"
+        android:textColor="#000000" />
+</AbsoluteLayout>

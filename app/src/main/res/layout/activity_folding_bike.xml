@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#77F4DDC3"
+    tools:context=".FoldingBike">
+
+    <ImageView
+        android:id="@+id/imageViewFoldingBicycle"
+        android:layout_width="284dp"
+        android:layout_height="257dp"
+        android:layout_x="71dp"
+        android:layout_y="127dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/bicyclefoldingtrinxdolphonblue" />
+
+    <ImageButton
+        android:id="@+id/BTLazada2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="162dp"
+        android:layout_y="623dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/iconlazada" />
+
+    <ImageButton
+        android:id="@+id/BTBack2"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:layout_x="4dp"
+        android:layout_y="22dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/backarrowicon2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="307dp"
+        android:layout_height="45dp"
+        android:layout_x="97dp"
+        android:layout_y="28dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="เราขอแนะนำจักรยานพับได้"
+        android:textColor="#070707"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="587dp"
+        android:text="สั่งซื้อสินค้า"
+        android:textAllCaps="false"
+        android:textColor="#E91E63" />
+
+    <ImageButton
+        android:id="@+id/BTColourGray"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_x="160dp"
+        android:layout_y="409dp"
+        app:srcCompat="@drawable/greycolor" />
+
+    <ImageButton
+        android:id="@+id/BTColourBlue"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_x="83dp"
+        android:layout_y="410dp"
+        app:srcCompat="@drawable/bluecolor" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="288dp"
+        android:layout_height="105dp"
+        android:layout_x="61dp"
+        android:layout_y="475dp"
+        android:text="	 เฟรมเหล็ก ทรงโค้ง ตะเกียบเหล็ก ล้อ 20&quot; เกียร์ SHIMANO 7 สปีด ยาง 20*1.75 ดิสก์สาย แฮนด์ อัลลอย / ดุมซีลแบริ่ง ขาจานอัลลอย 48T*170L เฟือง 14-28T" />
+
+    <ImageButton
+        android:id="@+id/BTShopee2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="624dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/iconshopee" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="73dp"
+        android:layout_y="87dp"
+        android:text="TRINX DOLPHIN 1.0"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="287dp"
+        android:layout_y="92dp"
+        android:text="ราคา 4800 บาท"
+        android:textColor="#000000" />
+</AbsoluteLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9F3FC"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="58dp"
+        android:layout_y="415dp"
+        android:text="ราคา"
+        android:textColor="#F44336"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="292dp"
+        android:text="การใช้งาน"
+        android:textColor="#F44336"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/Pricespinner"
+        android:layout_width="293dp"
+        android:layout_height="62dp"
+        android:layout_x="63dp"
+        android:layout_y="468dp"
+        android:entries="@array/s3" />
+
+    <Spinner
+        android:id="@+id/Usespinner"
+        android:layout_width="293dp"
+        android:layout_height="62dp"
+        android:layout_x="59dp"
+        android:layout_y="333dp"
+        android:entries="@array/s2" />
+
+    <Spinner
+        android:id="@+id/Typespinner"
+        android:layout_width="293dp"
+        android:layout_height="62dp"
+        android:layout_x="57dp"
+        android:layout_y="197dp"
+        android:entries="@array/s1" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="376dp"
+        android:layout_height="56dp"
+        android:layout_x="15dp"
+        android:layout_y="50dp"
+        android:text="ค้นหาจักรยานที่ใช่สำหรับคุณ"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="159dp"
+        android:text="ประเภทที่อยู่อาศัย"
+        android:textColor="#F44336"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/BTsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="157dp"
+        android:layout_y="556dp"
+        android:text="submit"
+        android:textColor="#090909"
+        android:textSize="20sp" />
+
+</AbsoluteLayout>
